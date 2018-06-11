@@ -9,9 +9,7 @@ namespace ZuulCS
 {
     class Inventory
     {
-        private List<>;
        
-
         public Inventory()
         {
 
