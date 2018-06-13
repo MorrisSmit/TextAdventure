@@ -18,6 +18,7 @@ namespace ZuulCS
         public Player()
         {
             this.health = 10;
+            IsAlive();
         }
 
         
