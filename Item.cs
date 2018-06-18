@@ -22,5 +22,9 @@ namespace ZuulCS
             description = "Undefined";
             weight  = 0;
 	    }
+        public void use()
+        {
+
+        }
     }
 }

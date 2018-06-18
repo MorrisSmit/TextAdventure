@@ -19,3 +19,10 @@ C:\Users\morri\Documents\Schooljaar 2017-2018\Periode 04\Textadventure\1234\Text
 C:\Users\morri\Documents\Schooljaar 2017-2018\Periode 04\Textadventure\1234\TextAdventure_Morris\TextAdventure_Morris\obj\Debug\TextAdventure_Morris.csproj.CoreCompileInputs.cache
 C:\Users\morri\Documents\Schooljaar 2017-2018\Periode 04\Textadventure\1234\TextAdventure_Morris\TextAdventure_Morris\obj\Debug\TextAdventure_Morris.exe
 C:\Users\morri\Documents\Schooljaar 2017-2018\Periode 04\Textadventure\1234\TextAdventure_Morris\TextAdventure_Morris\obj\Debug\TextAdventure_Morris.pdb
+C:\Users\morri\Documents\Schooljaar 2017-2018\Periode 04\Textadventure\txtadventure_morris\TextAdventure_Morris\TextAdventure_Morris\bin\Debug\TextAdventure_Morris.exe.config
+C:\Users\morri\Documents\Schooljaar 2017-2018\Periode 04\Textadventure\txtadventure_morris\TextAdventure_Morris\TextAdventure_Morris\bin\Debug\TextAdventure_Morris.exe
+C:\Users\morri\Documents\Schooljaar 2017-2018\Periode 04\Textadventure\txtadventure_morris\TextAdventure_Morris\TextAdventure_Morris\bin\Debug\TextAdventure_Morris.pdb
+C:\Users\morri\Documents\Schooljaar 2017-2018\Periode 04\Textadventure\txtadventure_morris\TextAdventure_Morris\TextAdventure_Morris\obj\Debug\TextAdventure_Morris.csprojResolveAssemblyReference.cache
+C:\Users\morri\Documents\Schooljaar 2017-2018\Periode 04\Textadventure\txtadventure_morris\TextAdventure_Morris\TextAdventure_Morris\obj\Debug\TextAdventure_Morris.csproj.CoreCompileInputs.cache
+C:\Users\morri\Documents\Schooljaar 2017-2018\Periode 04\Textadventure\txtadventure_morris\TextAdventure_Morris\TextAdventure_Morris\obj\Debug\TextAdventure_Morris.exe
+C:\Users\morri\Documents\Schooljaar 2017-2018\Periode 04\Textadventure\txtadventure_morris\TextAdventure_Morris\TextAdventure_Morris\obj\Debug\TextAdventure_Morris.pdb
