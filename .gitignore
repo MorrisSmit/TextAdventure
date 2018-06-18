@@ -1,3 +1,7 @@
 *.csproj
 bin
 obj
+App.config
+Properties
+Doxyfile
+Makefile
