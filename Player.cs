@@ -17,7 +17,7 @@ namespace ZuulCS
 
         public Player()
         {
-            this.health = 10;
+            this.health = 0;
             IsAlive();
         }
 
@@ -26,6 +26,7 @@ namespace ZuulCS
         private int Damage (int amount)
         {
             this.health -= amount;
+            IsAlive();
             return this.health;
         }
 
@@ -35,7 +36,7 @@ namespace ZuulCS
             return this.health;
         }
 
-        private bool IsAlive()
+        public bool IsAlive()
         {
             if (health < 1)
             {

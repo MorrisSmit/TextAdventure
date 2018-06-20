@@ -27,7 +27,7 @@ namespace ZuulCS
 			// Enter the main command loop.  Here we repeatedly read commands and
 			// execute them until the game is over.
 			bool finished = false;
-			while (! finished) {
+            while (!finished && player.IsAlive()) {
 				Command command = parser.getCommand();
 				finished = processCommand(command);
 			}
@@ -111,13 +111,6 @@ namespace ZuulCS
 			return wantToQuit;
 		}
 
-		// implementations of user commands:
-
-		/**
-	     * Print out some help information.
-	     * Here we print some stupid, cryptic message and a list of the
-	     * command words.
-	     */
 		private void printHelp()
 		{
 			Console.WriteLine("You are lost. You are alone.");
@@ -126,11 +119,6 @@ namespace ZuulCS
 			Console.WriteLine("Your command words are:");
 			parser.showCommands();
 		}
-
-		/**
-	     * Try to go to one direction. If there is an exit, enter the new
-	     * room, otherwise print an error message.
-	     */
 		
 
 	}

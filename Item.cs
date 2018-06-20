@@ -7,12 +7,18 @@ namespace ZuulCS
     {
         private string _itemName;
         private string description;
-        private float weight;
+        private float _weight;
 
         public string itemName
         {
             get { return this._itemName; }
         }
+        public float weight
+        {
+            get { return this._weight; }
+        }
+
+
 
 
 
@@ -20,7 +26,7 @@ namespace ZuulCS
         {
             _itemName = "Undefined";
             description = "Undefined";
-            weight  = 0;
+            _weight  = 0;
 	    }
         public void use()
         {
