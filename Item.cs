@@ -5,18 +5,18 @@ namespace ZuulCS
 
     class Item
     {
-        private string _itemName;
-        private string description;
-        private float _weight;
+        protected string _itemName;
+        protected string description;
+        protected float _weight;
 
-        public string itemName
+        /*public string itemName
         {
             get { return this._itemName; }
         }
         public float weight
         {
             get { return this._weight; }
-        }
+        }*/
 
 	    public Item()
         {
@@ -24,13 +24,12 @@ namespace ZuulCS
             description = "Undefined";
             _weight  = 0;
 	    }
-        public void use()
+        public virtual void Use()
         {
 
         }
         public string ItemDescription()
         {
-            string description = "A generic item";
             return description;
         }
     }
