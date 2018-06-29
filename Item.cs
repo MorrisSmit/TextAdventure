@@ -18,10 +18,6 @@ namespace ZuulCS
             get { return this._weight; }
         }
 
-
-
-
-
 	    public Item()
         {
             _itemName = "Undefined";
@@ -31,6 +27,11 @@ namespace ZuulCS
         public void use()
         {
 
+        }
+        public string ItemDescription()
+        {
+            string description = "A generic item";
+            return description;
         }
     }
 }
