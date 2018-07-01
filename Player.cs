@@ -11,14 +11,16 @@ namespace ZuulCS
     {
         private Room currentRoom;
         private int health;
+        public bool isBleeding;
 
         internal Room CurrentRoom { get => currentRoom; set => currentRoom = value; }
 
 
         public Player()
         {
-            this.health = 0;
+            this.health = 100;
             IsAlive();
+            isBleeding = false;
         }
 
         
@@ -47,6 +49,14 @@ namespace ZuulCS
                 return true;
             }
         }
+        public void Bleed()
+        {
+            if (isBleeding)
+            {
+                health -= 10;
+            }
+        }
+
         public void goRoom(Command command)
         {
             if (!command.hasSecondWord())
@@ -69,7 +79,7 @@ namespace ZuulCS
             {
                 this.CurrentRoom = nextRoom;
                 Console.WriteLine(this.CurrentRoom.getLongDescription());
-                this.Damage(2);
+                Bleed();
             }
         }
 

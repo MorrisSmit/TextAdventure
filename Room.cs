@@ -21,9 +21,9 @@ namespace ZuulCS
 		/**
 	     * Define an exit from this room.
 	     */
-		public void setExit(string direction, Room neighbor)
+		public void setExit(string direction, Room neighbour)
 		{
-			exits[direction] = neighbor;
+			exits[direction] = neighbour;
 		}
 
 		/**

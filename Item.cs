@@ -9,14 +9,14 @@ namespace ZuulCS
         protected string description;
         protected float _weight;
 
-        /*public string itemName
+        public string itemName
         {
             get { return this._itemName; }
         }
         public float weight
         {
             get { return this._weight; }
-        }*/
+        }
 
 	    public Item()
         {

@@ -19,7 +19,7 @@ namespace ZuulCS
         }
         public override void Use()
         {
-            Player.Heal();
+            Player.Heal(HealAmount);
         }
     }
 }
