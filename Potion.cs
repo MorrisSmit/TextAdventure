@@ -17,9 +17,10 @@ namespace ZuulCS
             _itemName = "Potion";
             description = "A potion, drink it and see what happens.";
         }
-        public override void Use()
+
+        public override void UseOnPlayer(Player player)
         {
-            Player.Heal(HealAmount);
+           player.Heal(HealAmount);
         }
     }
 }

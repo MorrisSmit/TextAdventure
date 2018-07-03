@@ -9,6 +9,7 @@ namespace ZuulCS
 {
     class Player
     {
+        private Inventory inventory;
         private Room currentRoom;
         private int health;
         public bool isBleeding;
@@ -18,6 +19,7 @@ namespace ZuulCS
 
         public Player()
         {
+            inventory = new Inventory();
             this.health = 100;
             IsAlive();
             isBleeding = false;
@@ -32,11 +34,11 @@ namespace ZuulCS
             return this.health;
         }
 
-        private int Heal(int amount)
+        public void Heal(int amount)
         {
-            this.health += amount;
-            return this.health;
+            health += amount;
         }
+        
 
         public bool IsAlive()
         {

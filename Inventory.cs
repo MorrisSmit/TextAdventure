@@ -22,7 +22,7 @@ namespace ZuulCS
             maxWeight = 10;
         }
         public void removeItem(string b)
-        {
+        {   
             items.Remove(b);
         }
         public float calculateWeight()
@@ -33,6 +33,11 @@ namespace ZuulCS
                 currentWeight += i.weight;
             }
             return maxWeight;
+        }
+
+        public void UseItem(Item i ,Player player)
+        {
+            i.UseOnPlayer(player);
         }
 
         public void AddItem(Item a)

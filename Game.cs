@@ -63,6 +63,9 @@ namespace ZuulCS
             secretroom.setExit("down", office);
 
             player.CurrentRoom = outside;  // start game outside
+
+
+            //lab.inventory.add();
         }
 
         /**

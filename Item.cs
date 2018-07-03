@@ -24,10 +24,16 @@ namespace ZuulCS
             description = "Undefined";
             _weight  = 0;
 	    }
+
         public virtual void Use()
         {
-
+            //dostuff
         }
+        public virtual void UseOnPlayer(Player p)
+        {
+            //dostuff with player
+        }
+        
         public string ItemDescription()
         {
             return description;
